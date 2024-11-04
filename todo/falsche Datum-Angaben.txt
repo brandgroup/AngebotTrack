@@ -1,0 +1,9 @@
+Die Datumsangaben im Tracking können unter bestimmten Umständen falsch sein.
+
+Szenario:
+
+In der Angebots-Registrierung ist bereits ein Eintrag vorhanden (Status = noch nicht abgeschlossen). Die Datumsangaben (erstellt am, Berechnung erstellt, usw.) dieses Eintrags sind im Tracking gespeichert und werden entsprechend im Tracking angezeigt.
+
+Zur Angebots-Nr. des Eintrags in der AR fügt der Benutzer zu einem späteren Datum einen weiteren Eintrag hinzu. Der neue Eintrag erhält die gleiche Tracking-ID. Im Tracking bleiben die ursprünglichen Datumsangaben erhalten (älteres Datum als der neu angelegte Eintrag).
+
+Löscht der Benutzer den älteren Eintrag in der AR bleiben die Datumsangaben dieses Eintrags im Tracking bestehen.

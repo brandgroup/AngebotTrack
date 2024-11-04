@@ -1,0 +1,9 @@
+zu klären:
+
+Wie soll die Darstellung für die unterschiedlichen vertriebsbereiche erfolgen? Sollen immer alle DS sichtbar sein, oder nach Vertriebsbereich gefiltert werden?
+
+Aktuell ist in jedem DS des Tracking gespeichert, zu welcher Firma/Sparte/Werk der DS gehört. Diese wird beim Anlegen eines DS in der Angebots-Registrierung durchgeführt. Hier sind die Benutzer den entsprechenden Bereichen zugeordnet.
+
+Die Zuordnung nach Produktionsstandort kann von Fall zu Fall unterschiedlich sein. Es ist zumindest theoretisch möglich, das innerhalb eines Angebots verschiedene Produktionsstandorte vorgesehen werden.
+
+Das Filtern nach Produktionsstandorten im Tracking kann somit dazu führen, dass nicht mehr alle Einträge wunschgemäß angezeigt werden.

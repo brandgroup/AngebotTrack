@@ -1,0 +1,50 @@
+datum_angelegt_am;angebot_nr;kunde;pb;anzahl_teile;anzahl_jahresbedarfe;bearbeitet_von;zeit_datum_angefragt_am;zeit_datum_angebot_bis;tracking_abgabe_termin;zukaufteile_ext_bearbeitung_erforderlich;prio;zeit_datum_berechnung_vorhanden;zeit_datum_hsb_vorhanden;zeit_datum_zukaufteile_angefragt;zeit_datum_ext_bearbeitung_angefragt;zeit_datum_zukaufteile_angebot_vorhanden;zeit_datum_ext_bearbeitung_angebot_vorhanden;zeit_datum_kalk_erstellt;zeit_datum_angebot_abgegeben;status_bearbeitung;freigegeben_von;
+10.05.2017;05/0151/17;ZF FRIEDRICHSHAFEN AG | D | SCHWEINFURT;BRA-AS;3;3;Schnaubelt, Niels;08.05.2017;12.05.2017;54;1;1;15.05.2017;15.05.2017;;15.05.2017;;24.05.2017;31.05.2017;;offen;;
+26.06.2017;06/0214/17;VALEO S.P.A. | I | SANTENA (TO);BRA-AS;1;8;Schulze-Dasbeck, Andrea;26.06.2017;29.06.2017;6;0;1;26.06.2017;26.06.2017;;;;;28.06.2017;;offen;;derzeit bei Hr. Hinsberger zur Freigabe, 30.06.2017
+22.05.2017;05/0167/17;LUK GMBH & CO.KG | D | BUEHL;BRA-AS;1;1;Hemmann, Patrick;22.05.2017;30.05.2017;36;1;1;12.06.2017;12.06.2017;;22.05.2017;;12.06.2017;04.07.2017;;offen;;Federset soll als Einzelfedern angeboten werden, da sie sonst beim Transport auseinander fallen
+26.06.2017;05/0157/17;Litens Automotive | CN | Suzhou;BKC-AS;1;2;Schulze-Dasbeck, Andrea;26.06.2017;29.06.2017;6;0;1;17.05.2017;;;;;;29.06.2017;;offen;;derzeit bei S. Quest zur Freigabe, 30.06.2017
+22.06.2017;06/0209/17;ZF FRIEDRICHSHAFEN AG | D | SCHWEINFURT;BRA-AS;1;1;Pink, Alina;22.06.2017;30.06.2017;5;1;1;30.06.2017;30.06.2017;;;;;;;offen;;
+06.06.2017;02/3008/16;ZF FRIEDRICHSHAFEN AG | D | SCHWEINFURT;BRA-AS;2;2;Pink, Alina;06.06.2017;07.06.2017;28;0;2;07.06.2017;07.06.2017;;;;;;;offen;;Nachtragsangebot zu Angeobt 02/3008/16, neuer Jahresbedarf von 100.000 Stück, vorher 12.125 Stück / Jahr
+05.04.2017;04/0099/17;ZF FRIEDRICHSHAFEN AG | D | SCHWEINFURT Slovakia;BRA-AS;5;5;Schnaubelt, Niels;05.04.2017;12.04.2017;84;1;2;19.04.2017;19.04.2017;;24.04.2017;;25.04.2017;;;offen;;Federauslegungen sind grenzwertig. Warmsetzen der Federn aufgrund der Geometrie nicht möglich . Herr Quest stimmt sich mit Kunden ab. 09.05.2017TD
+08.06.2017;06/0190/17;LUK GMBH & CO.KG | D | BUEHL;BRA-AS;2;2;Pink, Alina;01.06.2017;08.06.2017;27;0;2;09.06.2017;09.06.2017;;;;;09.06.2017;;offen;;
+11.05.2017;05/0113/17;SCHAEFFLER (UK) LTD. | GB | MIDLANDS;BRA-AS;1;1;Hemmann, Patrick;10.05.2017;17.05.2017;49;0;2;;;;;;;;;offen;;
+22.06.2017;06/0208/17;LITENS AUTOMOTIVE GMBH | D | GELNHAUSEN;BRA-AS;1;1;Schulze-Dasbeck, Andrea;22.06.2017;05.07.2017;0;0;2;;;;;;;;;offen;;
+22.05.2017;05/0164/17;LUK GMBH & CO.KG | D | BUEHL;BRA-AS;1;1;Hemmann, Patrick;22.05.2017;29.05.2017;37;1;2;;23.06.2017;22.05.2017;;03.06.2017;;;;offen;;
+22.05.2017;05/0166/17;LUK GMBH & CO.KG | D | BUEHL;BRA-AS;1;1;Hemmann, Patrick;22.05.2017;28.05.2017;38;1;2;;23.06.2017;22.05.2017;;03.06.2017;;;;offen;;
+23.05.2017;05/0169/17;LUK GMBH & CO.KG | D | BUEHL;BRA-AS;1;1;Hemmann, Patrick;23.05.2017;01.06.2017;34;1;2;;;23.05.2017;;12.06.2017;;;;offen;;
+23.05.2017;05/0172/17;LUK GMBH & CO.KG | D | BUEHL;BRA-AS;1;1;Hemmann, Patrick;23.05.2017;30.05.2017;36;0;2;;;;;;;;;offen;;
+29.05.2017;05/0176/17;LUK GMBH & CO.KG | D | BUEHL;BRA-AS;1;1;Hemmann, Patrick;24.03.2017;30.05.2017;36;0;2;;;;;;;;;offen;;
+31.05.2017;05/0186/17;LUK SAVARIA KFT. | HU | SZOMBATHELY;BRA-AS;1;1;Hemmann, Patrick;31.05.2017;07.06.2017;28;0;2;;;;;;;;;offen;;
+19.06.2017;06/0201/17;LUK GMBH & CO.KG | D | BUEHL;BRA-AS;1;1;Hemmann, Patrick;19.06.2017;26.06.2017;9;0;2;;;;;;;;;offen;;
+20.06.2017;06/0202/17;SCHAEFFLER (BKC-AS) CO LTD. | CN | TAICANG;BKC-AS;1;1;Hemmann, Patrick;20.06.2017;23.06.2017;12;1;2;03.07.2017;03.07.2017;20.06.2017;;28.06.2017;;03.07.2017;;offen;;
+20.06.2017;06/0203/17;LUK GMBH & CO.KG | D | BUEHL;BRA-AS;1;1;Hemmann, Patrick;20.06.2017;27.06.2017;8;0;2;;;;;;;;;offen;;
+20.06.2017;06/0204/17;LUK GMBH & CO.KG | D | BUEHL;BRA-AS;1;1;Hemmann, Patrick;20.06.2017;28.06.2017;7;0;2;;;;;;;;;offen;;
+21.06.2017;06/0205/17;LUK GMBH & CO.KG | D | BUEHL;BRA-AS;6;6;Hemmann, Patrick;19.06.2017;23.06.2017;12;0;2;;23.06.2017;;;;;;;offen;;
+21.06.2017;06/0206/17;LUK INDIA PRIVATE LIMITED | IN | HOSUR;BRA-AS;2;2;Hemmann, Patrick;20.06.2017;23.06.2017;12;0;2;;;;;;;;;offen;;
+21.06.2017;06/0207/17;LUK INDIA PRIVATE LIMITED | IN | HOSUR;BRA-AS;2;2;Hemmann, Patrick;21.06.2017;26.06.2017;9;0;2;;;;;;;;;offen;;
+22.06.2017;06/0210/17;LUK GMBH & CO.KG | D | BUEHL;BRA-AS;1;1;Hemmann, Patrick;22.06.2017;29.06.2017;6;1;2;;;22.06.2017;;;;;;offen;;
+03.07.2017;05/3099/16;DAYCO EUROPE S.R.L. | I | SAN BERNADO D IVREA (TO);BRA-AS;1;1;Schulze-Dasbeck, Andrea;03.07.2017;05.07.2017;0;0;2;03.07.2017;;;;;;;;offen;;Die Serienfeder mit Index 02 soll durch Index 03 ersetzt werden
+27.04.2017;04/0134/17;ZF FRIEDRICHSHAFEN AG | D | SCHWEINFURT ;BRA-AS;11;11;Schnaubelt, Niels;27.04.2017;15.05.2017;51;0;3;11.05.2017;11.05.2017;;;;;15.05.2017;;offen;;Freigabe/Aussage Hr. Schroer fehlt
+27.04.2017;04/0135/17;ZF FRIEDRICHSHAFEN AG | D | SCHWEINFURT Shanghai;BKC-AS;11;11;Schnaubelt, Niels;27.04.2017;15.05.2017;51;0;3;11.05.2017;11.05.2017;;;;;12.05.2017;;offen;;
+29.05.2017;05/0181/17;ZF FRIEDRICHSHAFEN AG | D | SCHWEINFURT;BRA-AS;1;1;Pink, Alina;29.05.2017;02.06.2017;33;0;3;29.05.2017;29.05.2017;;;;;07.06.2017;;offen;;Ersatzbedarf
+31.05.2017;05/0185/17;ZF FRIEDRICHSHAFEN AG | D | SCHWEINFURT Slovakia;BRA-AS;1;1;Pink, Alina;;14.06.2017;21;0;3;07.06.2017;07.06.2017;;;;;07.06.2017;;offen;;Ersatzbedarf
+16.06.2017;06/0199/17;ZF FRIEDRICHSHAFEN AG | D | SCHWEINFURT;BRA-AS;2;2;Schnaubelt, Niels;16.06.2017;26.06.2017;9;1;3;21.06.2017;21.06.2017;;28.06.2017;;28.06.2017;28.06.2017;;offen;;Nitrierpreis von der Feder #2 031 übernommen
+22.06.2017;06/0211/17;LUK CLUTCH SYSTEMS, LLC. | USA | WOOSTER, OHIO 44691;BKM-AS;1;1;Hemmann, Patrick;22.06.2017;30.06.2017;5;1;3;;;;22.06.2017;;;;;offen;;
+22.06.2017;06/0212/17;LUK CLUTCH SYSTEMS, LLC. | USA | WOOSTER, OHIO 44691;BKM-AS;1;1;Hemmann, Patrick;22.06.2017;30.06.2017;5;1;3;;;22.06.2017;;;;;;offen;;
+27.06.2017;06/0217/17;LUK INDIA PRIVATE LIMITED | IN | HOSUR;BRA-AS;1;1;Hemmann, Patrick;27.06.2017;01.07.2017;4;0;3;;;;;;;;;offen;;
+29.06.2017;06/0219/17;SCHAEFFLER TECHNOLOGIES | D | HERZOGENAURACH;BRA-AS;1;1;Hemmann, Patrick;29.06.2017;06.07.2017;-1;0;3;29.06.2017;;;;;;;;offen;;
+29.06.2017;06/0220/17;SCHAEFFLER (BKC-AS) CO LTD. | CN | TAICANG;BKC-AS;1;1;Hemmann, Patrick;29.06.2017;06.07.2017;-1;0;3;;;;;;;;;offen;;
+28.06.2017;06/0218/17;LUK SAVARIA KFT. | HU | SZOMBATHELY;BRA-AS;1;1;Hemmann, Patrick;28.06.2017;04.07.2017;1;1;4;;;;;;;;;offen;;
+04.05.2017;05/0145/17;LUK SAVARIA KFT. | HU | SZOMBATHELY;BRA-AS;1;2;Hemmann, Patrick;04.05.2017;11.05.2017;55;1;5;;;;;;;;;offen;;Sollen lt. H. Hinder angeboten werden / 2. JB für SCHAEFFLER (BKC-AS) CO LTD. | CN | TAICANG
+08.05.2017;05/0146/17;LUK PUEBLA S. DE R.L. DE C.V. | MEX | C.P. PUEBLA, PUEBLA MEXICO;BKM-AS;1;1;Hemmann, Patrick;04.05.2017;10.05.2017;56;1;5;;;;;;;;;offen;;Sollen lt. H. Hinder angeboten werden
+08.05.2017;05/0147/17;LUK PUEBLA S. DE R.L. DE C.V. | MEX | C.P. PUEBLA, PUEBLA MEXICO;BKM-AS;1;1;Hemmann, Patrick;04.05.2017;10.05.2017;56;1;5;;;;;;;;;offen;;Sollen lt. H. Hinder angeboten werden
+07.04.2017;04/0104/17;VALEO TRANSMISSIONS MEXICO | MEX | SAN LUIS POTOSI;BKM-AS;2;2;Schulze-Dasbeck, Andrea;07.04.2017;05.05.2017;61;0;5;;;;;;;;;offen;;C. Jaire fehlt noch Freigabe der Berechnung von Seitens VALEO TRANSMISSIONS MEXICO | MEX | SAN LUIS POTOSI 08.05.2017
+07.04.2017;04/0105/17;VALEO TRANSMISSIONS MEXICO | MEX | SAN LUIS POTOSI;BKM-AS;2;2;Schulze-Dasbeck, Andrea;07.04.2017;05.05.2017;61;0;5;;;;;;;;;offen;;C. Jaire fehlt noch Freigabe der Berechnung von Seitens VALEO TRANSMISSIONS MEXICO | MEX | SAN LUIS POTOSI 08.05.2017
+04.05.2017;05/0143/17;VALEO EMBRAYAGES | F | AMIENS CEDEX 1;BRA-AS;3;3;Schulze-Dasbeck, Andrea;04.05.2017;10.05.2017;56;0;5;;;;;;;;;offen;;derzeit technische Klärung zwischen C. Jaire und Valeo Frankreich
+23.05.2017;05/0170/17;LUK GMBH & CO.KG | D | BUEHL;BRA-AS;1;1;Hemmann, Patrick;23.05.2017;30.05.2017;36;1;5;;;;;;;;;offen;;Induktiv Vergütet
+23.05.2017;05/0173/17;LUK GMBH & CO.KG | D | BUEHL;BRA-AS;1;1;Hemmann, Patrick;23.05.2017;30.05.2017;36;1;5;;;;;;;;;offen;;Induktiv Vergütet
+23.05.2017;05/0174/17;LUK GMBH & CO.KG | D | BUEHL;BRA-AS;1;1;Hemmann, Patrick;23.05.2017;30.05.2017;36;1;5;;;;;;;;;offen;;Induktiv Vergütet
+29.05.2017;05/0177/17;LUK GMBH & CO.KG | D | BUEHL;BRA-AS;1;1;Hemmann, Patrick;24.03.2017;30.05.2017;36;1;5;;;;;;;;;offen;;Induktiv Vergütet
+29.05.2017;05/0178/17;LUK GMBH & CO.KG | D | BUEHL;BRA-AS;1;1;Hemmann, Patrick;24.03.2017;30.05.2017;36;1;5;;;;;;;;;offen;;Induktiv Vergütet
+26.06.2017;06/0215/17;ZF FRIEDRICHSHAFEN AG | D | SCHWEINFURT Slovakia;BRA-AS;7;7;Pink, Alina;13.06.2017;16.07.2017;-11;1;5;;;;;;;;;offen;;
+26.06.2017;06/0216/17;LUK SAVARIA KFT. | HU | SZOMBATHELY;BRA-AS;1;1;Hemmann, Patrick;23.06.2017;12.07.2017;-7;0;5;;;;;;;;;offen;;

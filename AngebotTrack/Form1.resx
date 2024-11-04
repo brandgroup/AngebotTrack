@@ -1,0 +1,2217 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="ToolTip_form1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>237, 17</value>
+  </metadata>
+  <metadata name="btn_filter_aufheben.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="btn_filter_aufheben.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left</value>
+  </data>
+  <data name="btn_filter_aufheben.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btn_filter_aufheben.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="btn_filter_aufheben.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 7</value>
+  </data>
+  <data name="btn_filter_aufheben.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 40</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="btn_filter_aufheben.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="btn_filter_aufheben.ToolTip" xml:space="preserve">
+    <value>alle Filter aufheben</value>
+  </data>
+  <data name="&gt;&gt;btn_filter_aufheben.Name" xml:space="preserve">
+    <value>btn_filter_aufheben</value>
+  </data>
+  <data name="&gt;&gt;btn_filter_aufheben.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btn_filter_aufheben.Parent" xml:space="preserve">
+    <value>PanelControl_buttons</value>
+  </data>
+  <data name="&gt;&gt;btn_filter_aufheben.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <metadata name="btn_daten_aktualisieren.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="btn_daten_aktualisieren.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left</value>
+  </data>
+  <data name="btn_daten_aktualisieren.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btn_daten_aktualisieren.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btn_daten_aktualisieren.Location" type="System.Drawing.Point, System.Drawing">
+    <value>49, 7</value>
+  </data>
+  <data name="btn_daten_aktualisieren.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 40</value>
+  </data>
+  <data name="btn_daten_aktualisieren.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="btn_daten_aktualisieren.ToolTip" xml:space="preserve">
+    <value>Daten aktualisieren</value>
+  </data>
+  <data name="&gt;&gt;btn_daten_aktualisieren.Name" xml:space="preserve">
+    <value>btn_daten_aktualisieren</value>
+  </data>
+  <data name="&gt;&gt;btn_daten_aktualisieren.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btn_daten_aktualisieren.Parent" xml:space="preserve">
+    <value>PanelControl_buttons</value>
+  </data>
+  <data name="&gt;&gt;btn_daten_aktualisieren.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <metadata name="Timer_satzsperre.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>361, 17</value>
+  </metadata>
+  <metadata name="GridControl_tracking.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="GridControl_tracking.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="GridControl_tracking.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 24</value>
+  </data>
+  <data name="BandedGridView_tracking.Appearance.GroupPanel.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>Vertical</value>
+  </data>
+  <data name="GridBand_basics.Caption" xml:space="preserve">
+    <value>Basics</value>
+  </data>
+  <data name="colid_tracking.Caption" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="colid_tracking.Width" type="System.Int32, mscorlib">
+    <value>70</value>
+  </data>
+  <data name="colorg_company.Caption" xml:space="preserve">
+    <value>Firma</value>
+  </data>
+  <data name="colorg_company.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colorg_company.Width" type="System.Int32, mscorlib">
+    <value>60</value>
+  </data>
+  <data name="colorg_division.Caption" xml:space="preserve">
+    <value>Sparte</value>
+  </data>
+  <data name="colorg_division.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colorg_division.Width" type="System.Int32, mscorlib">
+    <value>60</value>
+  </data>
+  <data name="colorg_plant.Caption" xml:space="preserve">
+    <value>Werk</value>
+  </data>
+  <data name="colorg_plant.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colorg_plant.Width" type="System.Int32, mscorlib">
+    <value>60</value>
+  </data>
+  <data name="coldatum_angelegt_am.Caption" xml:space="preserve">
+    <value>Datum angelegt am</value>
+  </data>
+  <data name="coldatum_angelegt_am.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="coldatum_angelegt_am.Width" type="System.Int32, mscorlib">
+    <value>48</value>
+  </data>
+  <data name="colangebot_nr.Caption" xml:space="preserve">
+    <value>Angebot-Nr.</value>
+  </data>
+  <data name="colangebot_nr.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colangebot_nr.Width" type="System.Int32, mscorlib">
+    <value>48</value>
+  </data>
+  <data name="colkunde.Caption" xml:space="preserve">
+    <value>Kunde</value>
+  </data>
+  <data name="colkunde.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colkunde.Width" type="System.Int32, mscorlib">
+    <value>48</value>
+  </data>
+  <data name="colpb.Caption" xml:space="preserve">
+    <value>Fertigungs-Bereich</value>
+  </data>
+  <data name="colpb.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colpb.Width" type="System.Int32, mscorlib">
+    <value>48</value>
+  </data>
+  <data name="colanzahl_teile.Caption" xml:space="preserve">
+    <value>Anzahl Teile</value>
+  </data>
+  <data name="colanzahl_teile.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colanzahl_teile.Width" type="System.Int32, mscorlib">
+    <value>48</value>
+  </data>
+  <data name="colanzahl_jahresbedarfe.Caption" xml:space="preserve">
+    <value>Anzahl Jahresbedarfe</value>
+  </data>
+  <data name="colanzahl_jahresbedarfe.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colanzahl_jahresbedarfe.Width" type="System.Int32, mscorlib">
+    <value>48</value>
+  </data>
+  <data name="colbearbeitet_von.Caption" xml:space="preserve">
+    <value>bearbeitet von</value>
+  </data>
+  <data name="colbearbeitet_von.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colbearbeitet_von.Width" type="System.Int32, mscorlib">
+    <value>54</value>
+  </data>
+  <data name="colname_kunden_manager.Caption" xml:space="preserve">
+    <value>Kunden-Manager</value>
+  </data>
+  <data name="colname_kunden_manager.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colname_kunden_manager.Width" type="System.Int32, mscorlib">
+    <value>54</value>
+  </data>
+  <data name="colzeit_datum_angefragt_am.Caption" xml:space="preserve">
+    <value>Datum angefragt am</value>
+  </data>
+  <data name="colzeit_datum_angefragt_am.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colzeit_datum_angefragt_am.Width" type="System.Int32, mscorlib">
+    <value>48</value>
+  </data>
+  <data name="colzeit_datum_angebot_bis.Caption" xml:space="preserve">
+    <value>Datum Angebot bis</value>
+  </data>
+  <data name="colzeit_datum_angebot_bis.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colzeit_datum_angebot_bis.Width" type="System.Int32, mscorlib">
+    <value>48</value>
+  </data>
+  <data name="coltracking_abgabe_termin.Caption" xml:space="preserve">
+    <value>Tracking Abgabetermin</value>
+  </data>
+  <data name="coltracking_abgabe_termin.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="coltracking_abgabe_termin.Width" type="System.Int32, mscorlib">
+    <value>48</value>
+  </data>
+  <data name="colprio.Caption" xml:space="preserve">
+    <value>Prio</value>
+  </data>
+  <data name="colprio.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colprio.Width" type="System.Int32, mscorlib">
+    <value>48</value>
+  </data>
+  <data name="colprio_automatisch.Caption" xml:space="preserve">
+    <value>Prio automatisch</value>
+  </data>
+  <data name="colprio_automatisch.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colprio_automatisch.Width" type="System.Int32, mscorlib">
+    <value>72</value>
+  </data>
+  <data name="col_status_kalk.Caption" xml:space="preserve">
+    <value>Status Kalkulation</value>
+  </data>
+  <data name="col_status_kalk.Width" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="col_satzsperre_ar.Caption" xml:space="preserve">
+    <value>Satzsperre</value>
+  </data>
+  <data name="GridBand_basics.MinWidth" type="System.Int32, mscorlib">
+    <value>836</value>
+  </data>
+  <data name="GridBand_basics.Name" xml:space="preserve">
+    <value>GridBand_basics</value>
+  </data>
+  <data name="GridBand_basics.Width" type="System.Int32, mscorlib">
+    <value>840</value>
+  </data>
+  <data name="gridBand_zkt_extb.Caption" xml:space="preserve">
+    <value>Zukauft. / Ext.</value>
+  </data>
+  <data name="colflg.Caption" xml:space="preserve">
+    <value>Flags</value>
+  </data>
+  <data name="colflg.Width" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="colzukaufteile_erforderlich.Caption" xml:space="preserve">
+    <value>Zukaufteile</value>
+  </data>
+  <data name="colzukaufteile_erforderlich.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colzukaufteile_erforderlich.Width" type="System.Int32, mscorlib">
+    <value>40</value>
+  </data>
+  <data name="colext_bearbeitung_erforderlich.Caption" xml:space="preserve">
+    <value>ext. Bearbeitung erforderlich</value>
+  </data>
+  <data name="colext_bearbeitung_erforderlich.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colext_bearbeitung_erforderlich.Width" type="System.Int32, mscorlib">
+    <value>45</value>
+  </data>
+  <data name="gridBand_zkt_extb.Name" xml:space="preserve">
+    <value>gridBand_zkt_extb</value>
+  </data>
+  <data name="gridBand_zkt_extb.Width" type="System.Int32, mscorlib">
+    <value>85</value>
+  </data>
+  <data name="gridBand_tracking.Caption" xml:space="preserve">
+    <value>Tracking</value>
+  </data>
+  <data name="colzeit_datum_hsb_freigegeben.Caption" xml:space="preserve">
+    <value>Datum HSB freigegeben</value>
+  </data>
+  <data name="colzeit_datum_hsb_freigegeben.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colzeit_datum_berechnung_vorhanden.Caption" xml:space="preserve">
+    <value>Datum Berechnung erstellt</value>
+  </data>
+  <data name="colzeit_datum_berechnung_vorhanden.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colzeit_datum_berechnung_vorhanden.Width" type="System.Int32, mscorlib">
+    <value>37</value>
+  </data>
+  <data name="col_status_berechnung.Caption" xml:space="preserve">
+    <value>Status Berechnung</value>
+  </data>
+  <data name="col_status_berechnung.Width" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="colzeit_datum_hsb_vorhanden_ae.Caption" xml:space="preserve">
+    <value>Datum HSB vorh. AE</value>
+  </data>
+  <data name="colzeit_datum_hsb_vorhanden_ae.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colzeit_datum_hsb_vorhanden_ae.Width" type="System.Int32, mscorlib">
+    <value>37</value>
+  </data>
+  <data name="col_status_hsb_ae.Caption" xml:space="preserve">
+    <value>Status HSB Ae</value>
+  </data>
+  <data name="col_status_hsb_ae.Width" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="colzeit_datum_hsb_vorhanden_prod.Caption" xml:space="preserve">
+    <value>Datum HSB vorh. Prod.</value>
+  </data>
+  <data name="colzeit_datum_hsb_vorhanden_prod.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colzeit_datum_hsb_vorhanden_prod.Width" type="System.Int32, mscorlib">
+    <value>37</value>
+  </data>
+  <data name="col_status_hsb_prod.Caption" xml:space="preserve">
+    <value>Status HSB Produktion</value>
+  </data>
+  <data name="col_status_hsb_prod.Width" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="colzeit_datum_hsb_vorhanden_qs.Caption" xml:space="preserve">
+    <value>Datum HSB vorh. QS</value>
+  </data>
+  <data name="colzeit_datum_hsb_vorhanden_qs.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colzeit_datum_hsb_vorhanden_qs.Width" type="System.Int32, mscorlib">
+    <value>37</value>
+  </data>
+  <data name="col_status_hsb_qm.Caption" xml:space="preserve">
+    <value>Status HSB QM</value>
+  </data>
+  <data name="col_status_hsb_qm.Width" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="colzeit_datum_zukaufteile_angefragt.Caption" xml:space="preserve">
+    <value>Datum Zukaufteile angefragt</value>
+  </data>
+  <data name="colzeit_datum_zukaufteile_angefragt.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colzeit_datum_zukaufteile_angefragt.Width" type="System.Int32, mscorlib">
+    <value>37</value>
+  </data>
+  <data name="colzeit_datum_ext_bearbeitung_angefragt.Caption" xml:space="preserve">
+    <value>Datum ext. Bearbeitung angefragt</value>
+  </data>
+  <data name="colzeit_datum_ext_bearbeitung_angefragt.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colzeit_datum_ext_bearbeitung_angefragt.Width" type="System.Int32, mscorlib">
+    <value>37</value>
+  </data>
+  <data name="colzeit_datum_zukaufteile_angebot_vorhanden.Caption" xml:space="preserve">
+    <value>Datum Zukaufteile Angebot vorhanden</value>
+  </data>
+  <data name="colzeit_datum_zukaufteile_angebot_vorhanden.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colzeit_datum_zukaufteile_angebot_vorhanden.Width" type="System.Int32, mscorlib">
+    <value>37</value>
+  </data>
+  <data name="colzeit_datum_ext_bearbeitung_angebot_vorhanden.Caption" xml:space="preserve">
+    <value>Datum ext. Bearbeitung Angebot erhalten</value>
+  </data>
+  <data name="colzeit_datum_ext_bearbeitung_angebot_vorhanden.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colzeit_datum_ext_bearbeitung_angebot_vorhanden.Width" type="System.Int32, mscorlib">
+    <value>37</value>
+  </data>
+  <data name="colzeit_datum_kalk_erstellt.Caption" xml:space="preserve">
+    <value>Datum Kalkulation erstellt</value>
+  </data>
+  <data name="colzeit_datum_kalk_erstellt.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colzeit_datum_kalk_erstellt.Width" type="System.Int32, mscorlib">
+    <value>37</value>
+  </data>
+  <data name="colzeit_datum_angebot_abgegeben.Caption" xml:space="preserve">
+    <value>Datum Angebot abgegeben</value>
+  </data>
+  <data name="colzeit_datum_angebot_abgegeben.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colzeit_datum_angebot_abgegeben.Width" type="System.Int32, mscorlib">
+    <value>37</value>
+  </data>
+  <data name="colstatus_bearbeitung.Caption" xml:space="preserve">
+    <value>Status Bearbeitung</value>
+  </data>
+  <data name="colstatus_bearbeitung.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colstatus_bearbeitung.Width" type="System.Int32, mscorlib">
+    <value>122</value>
+  </data>
+  <data name="colfreigegeben_von.Caption" xml:space="preserve">
+    <value>freigegeben von</value>
+  </data>
+  <data name="colfreigegeben_von.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colfreigegeben_von.Width" type="System.Int32, mscorlib">
+    <value>93</value>
+  </data>
+  <data name="gridBand_tracking.Name" xml:space="preserve">
+    <value>gridBand_tracking</value>
+  </data>
+  <data name="gridBand_tracking.Width" type="System.Int32, mscorlib">
+    <value>660</value>
+  </data>
+  <data name="gridBand_bemerkungen.Caption" xml:space="preserve">
+    <value>Bemerkungen</value>
+  </data>
+  <data name="colbemerkungen.Caption" xml:space="preserve">
+    <value>Bemerkungen</value>
+  </data>
+  <data name="RepositoryItemMemoExEdit1.AutoHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <assembly alias="DevExpress.Utils.v24.1" name="DevExpress.Utils.v24.1, Version=24.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+  <data name="RepositoryItemMemoExEdit1.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v24.1">
+    <value>Combo</value>
+  </data>
+  <data name="colbemerkungen.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colbemerkungen.Width" type="System.Int32, mscorlib">
+    <value>85</value>
+  </data>
+  <data name="gridBand_bemerkungen.Name" xml:space="preserve">
+    <value>gridBand_bemerkungen</value>
+  </data>
+  <data name="gridBand_bemerkungen.Width" type="System.Int32, mscorlib">
+    <value>85</value>
+  </data>
+  <metadata name="BarManager_form1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>161, 55</value>
+  </metadata>
+  <data name="BarSubItem_angebots_tracking.Caption" xml:space="preserve">
+    <value>Angebots-Tracking</value>
+  </data>
+  <data name="BarButtonItem_schliessen.Caption" xml:space="preserve">
+    <value>Schliessen</value>
+  </data>
+  <data name="BarSubItem_einstellungen.Caption" xml:space="preserve">
+    <value>Einstellungen</value>
+  </data>
+  <data name="BarEditItem_sprache.Caption" xml:space="preserve">
+    <value>Sprache</value>
+  </data>
+  <data name="RepositoryItemComboBox_sprache.AutoHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="RepositoryItemComboBox_sprache.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v24.1">
+    <value>Combo</value>
+  </data>
+  <data name="BarSubItem_anzeigen.Caption" xml:space="preserve">
+    <value>Anzeigen</value>
+  </data>
+  <data name="BarButtonItem_dokumentation.Caption" xml:space="preserve">
+    <value>Dokumentation</value>
+  </data>
+  <data name="BarButtonItem_info.Caption" xml:space="preserve">
+    <value>Info</value>
+  </data>
+  <data name="Bar2.Text" xml:space="preserve">
+    <value>Hauptmenü</value>
+  </data>
+  <data name="BarStaticItem_connection.Caption" xml:space="preserve">
+    <value>Connection</value>
+  </data>
+  <data name="BarStaticItem_berechtigung.Caption" xml:space="preserve">
+    <value>Berechtigung</value>
+  </data>
+  <data name="BarStaticItem_numlock.Caption" xml:space="preserve">
+    <value>NumLock</value>
+  </data>
+  <data name="BarStaticItem_capslock.Caption" xml:space="preserve">
+    <value>CapsLock</value>
+  </data>
+  <data name="BarStaticItem_date.Caption" xml:space="preserve">
+    <value>Datum</value>
+  </data>
+  <data name="BarStaticItem_anzahl_ds.Caption" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="BarStaticItem_timer_user_action.Caption" xml:space="preserve">
+    <value>Timer</value>
+  </data>
+  <data name="Bar3.Text" xml:space="preserve">
+    <value>Statusleiste</value>
+  </data>
+  <data name="barDockControlTop.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="barDockControlTop.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="barDockControlTop.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1432, 20</value>
+  </data>
+  <data name="&gt;&gt;barDockControlTop.Name" xml:space="preserve">
+    <value>barDockControlTop</value>
+  </data>
+  <data name="&gt;&gt;barDockControlTop.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarDockControl, DevExpress.XtraBars.v24.1, Version=24.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;barDockControlTop.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;barDockControlTop.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="barDockControlBottom.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <data name="barDockControlBottom.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 751</value>
+  </data>
+  <data name="barDockControlBottom.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1432, 22</value>
+  </data>
+  <data name="&gt;&gt;barDockControlBottom.Name" xml:space="preserve">
+    <value>barDockControlBottom</value>
+  </data>
+  <data name="&gt;&gt;barDockControlBottom.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarDockControl, DevExpress.XtraBars.v24.1, Version=24.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;barDockControlBottom.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;barDockControlBottom.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="barDockControlLeft.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="barDockControlLeft.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 20</value>
+  </data>
+  <data name="barDockControlLeft.Size" type="System.Drawing.Size, System.Drawing">
+    <value>0, 731</value>
+  </data>
+  <data name="&gt;&gt;barDockControlLeft.Name" xml:space="preserve">
+    <value>barDockControlLeft</value>
+  </data>
+  <data name="&gt;&gt;barDockControlLeft.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarDockControl, DevExpress.XtraBars.v24.1, Version=24.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;barDockControlLeft.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;barDockControlLeft.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="barDockControlRight.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="barDockControlRight.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1432, 20</value>
+  </data>
+  <data name="barDockControlRight.Size" type="System.Drawing.Size, System.Drawing">
+    <value>0, 731</value>
+  </data>
+  <data name="&gt;&gt;barDockControlRight.Name" xml:space="preserve">
+    <value>barDockControlRight</value>
+  </data>
+  <data name="&gt;&gt;barDockControlRight.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarDockControl, DevExpress.XtraBars.v24.1, Version=24.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;barDockControlRight.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;barDockControlRight.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>105</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1432, 773</value>
+  </data>
+  <metadata name="GridControl_AngebotReg.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="GridControl_AngebotReg.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left, Right</value>
+  </data>
+  <metadata name="DataTableAngebotRegBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>1087, 18</value>
+  </metadata>
+  <metadata name="DataSet_tracking.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>751, 18</value>
+  </metadata>
+  <data name="GridControl_AngebotReg.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 340</value>
+  </data>
+  <data name="GridView_AngebotReg.Appearance.GroupPanel.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>Vertical</value>
+  </data>
+  <data name="colid_ar.Caption" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="colid_tracking_ar.Caption" xml:space="preserve">
+    <value>ID Tracking</value>
+  </data>
+  <data name="col_datum_angebot_bis.Caption" xml:space="preserve">
+    <value>Angebot bis</value>
+  </data>
+  <assembly alias="DevExpress.XtraGrid.v24.1" name="DevExpress.XtraGrid.v24.1, Version=24.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+  <data name="col_datum_angebot_bis.Fixed" type="DevExpress.XtraGrid.Columns.FixedStyle, DevExpress.XtraGrid.v24.1">
+    <value>Left</value>
+  </data>
+  <data name="col_datum_angebot_bis.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="col_datum_angebot_bis.VisibleIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="col_datum_angebot_bis.Width" type="System.Int32, mscorlib">
+    <value>80</value>
+  </data>
+  <data name="colznr_ar.Caption" xml:space="preserve">
+    <value>Zeichnung-Nr.</value>
+  </data>
+  <data name="colznr_ar.Fixed" type="DevExpress.XtraGrid.Columns.FixedStyle, DevExpress.XtraGrid.v24.1">
+    <value>Left</value>
+  </data>
+  <data name="colznr_ar.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colznr_ar.VisibleIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="colznr_ar.Width" type="System.Int32, mscorlib">
+    <value>120</value>
+  </data>
+  <data name="colind_ar.Caption" xml:space="preserve">
+    <value>Index</value>
+  </data>
+  <data name="colind_ar.Fixed" type="DevExpress.XtraGrid.Columns.FixedStyle, DevExpress.XtraGrid.v24.1">
+    <value>Left</value>
+  </data>
+  <data name="colind_ar.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colind_ar.VisibleIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="colind_ar.Width" type="System.Int32, mscorlib">
+    <value>40</value>
+  </data>
+  <data name="coljahresbedarf_ar.Caption" xml:space="preserve">
+    <value>Jahresbedarf</value>
+  </data>
+  <data name="coljahresbedarf_ar.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="coljahresbedarf_ar.VisibleIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="coljahresbedarf_ar.Width" type="System.Int32, mscorlib">
+    <value>50</value>
+  </data>
+  <data name="collosgroesse_ar.Caption" xml:space="preserve">
+    <value>Fertigungs-Losgrösse</value>
+  </data>
+  <data name="collosgroesse_ar.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="collosgroesse_ar.VisibleIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="collosgroesse_ar.Width" type="System.Int32, mscorlib">
+    <value>70</value>
+  </data>
+  <data name="colpb_ar.Caption" xml:space="preserve">
+    <value>Fertigungs-Bereich</value>
+  </data>
+  <data name="colpb_ar.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colpb_ar.VisibleIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="colpb_ar.Width" type="System.Int32, mscorlib">
+    <value>80</value>
+  </data>
+  <data name="colmit_zukaufteilen_ar.Caption" xml:space="preserve">
+    <value>mit Zukaufteilen</value>
+  </data>
+  <data name="RepositoryItemCheckEdit1.AutoHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="colmit_zukaufteilen_ar.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colmit_zukaufteilen_ar.VisibleIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="colmit_zukaufteilen_ar.Width" type="System.Int32, mscorlib">
+    <value>70</value>
+  </data>
+  <data name="colmit_ext_ag_ar.Caption" xml:space="preserve">
+    <value>mit ext. Bearbeitung</value>
+  </data>
+  <data name="colmit_ext_ag_ar.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colmit_ext_ag_ar.VisibleIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="colmit_ext_ag_ar.Width" type="System.Int32, mscorlib">
+    <value>70</value>
+  </data>
+  <data name="colzeit_datum_berechnung_erstellt_ar.Caption" xml:space="preserve">
+    <value>Datum Berechnung erstellt</value>
+  </data>
+  <data name="RepositoryItemDateEdit1.AutoHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="RepositoryItemDateEdit1.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v24.1">
+    <value>Combo</value>
+  </data>
+  <data name="RepositoryItemDateEdit1.CalendarTimeProperties.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v24.1">
+    <value>Combo</value>
+  </data>
+  <data name="colzeit_datum_berechnung_erstellt_ar.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colzeit_datum_berechnung_erstellt_ar.VisibleIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="colzeit_datum_berechnung_erstellt_ar.Width" type="System.Int32, mscorlib">
+    <value>70</value>
+  </data>
+  <data name="colzeit_datum_hsb_erstellt_ae_ar.Caption" xml:space="preserve">
+    <value>Datum HSB AE erstellt</value>
+  </data>
+  <data name="colzeit_datum_hsb_erstellt_ae_ar.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colzeit_datum_hsb_erstellt_ae_ar.VisibleIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="colzeit_datum_hsb_erstellt_ae_ar.Width" type="System.Int32, mscorlib">
+    <value>70</value>
+  </data>
+  <data name="colzeit_datum_hsb_erstellt_prod_ar.Caption" xml:space="preserve">
+    <value>Datum HSB Prod erstellt</value>
+  </data>
+  <data name="colzeit_datum_hsb_erstellt_prod_ar.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colzeit_datum_hsb_erstellt_prod_ar.VisibleIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="colzeit_datum_hsb_erstellt_prod_ar.Width" type="System.Int32, mscorlib">
+    <value>70</value>
+  </data>
+  <data name="colzeit_datum_hsb_erstellt_qm_ar.Caption" xml:space="preserve">
+    <value>Datum HSB QM erstellt</value>
+  </data>
+  <data name="colzeit_datum_hsb_erstellt_qm_ar.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colzeit_datum_hsb_erstellt_qm_ar.VisibleIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="colzeit_datum_hsb_erstellt_qm_ar.Width" type="System.Int32, mscorlib">
+    <value>70</value>
+  </data>
+  <data name="colzeit_datum_hsb_freigegeben_ar.Caption" xml:space="preserve">
+    <value>Datum HSB freigegeben</value>
+  </data>
+  <data name="colzeit_datum_hsb_freigegeben_ar.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colzeit_datum_hsb_freigegeben_ar.VisibleIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="colzeit_datum_zukaufteile_angefragt_ar.Caption" xml:space="preserve">
+    <value>Datum Zukaufteile angefragt</value>
+  </data>
+  <data name="colzeit_datum_zukaufteile_angefragt_ar.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colzeit_datum_zukaufteile_angefragt_ar.VisibleIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="colzeit_datum_zukaufteile_angefragt_ar.Width" type="System.Int32, mscorlib">
+    <value>70</value>
+  </data>
+  <data name="colzeit_datum_ext_bearbeitung_angefragt_ar.Caption" xml:space="preserve">
+    <value>Datum ext. Bearbeitung angefragt</value>
+  </data>
+  <data name="colzeit_datum_ext_bearbeitung_angefragt_ar.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colzeit_datum_ext_bearbeitung_angefragt_ar.VisibleIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="colzeit_datum_ext_bearbeitung_angefragt_ar.Width" type="System.Int32, mscorlib">
+    <value>70</value>
+  </data>
+  <data name="colzeit_datum_zukaufteile_angebot_erhalten_ar.Caption" xml:space="preserve">
+    <value>Datum Zukaufteile Angebot erhalten</value>
+  </data>
+  <data name="colzeit_datum_zukaufteile_angebot_erhalten_ar.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colzeit_datum_zukaufteile_angebot_erhalten_ar.VisibleIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="colzeit_datum_zukaufteile_angebot_erhalten_ar.Width" type="System.Int32, mscorlib">
+    <value>70</value>
+  </data>
+  <data name="colzeit_datum_ext_bearbeitung_angebot_erhalten_ar.Caption" xml:space="preserve">
+    <value>Datum ext. Bearbeitung Angebot erhalten</value>
+  </data>
+  <data name="colzeit_datum_ext_bearbeitung_angebot_erhalten_ar.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colzeit_datum_ext_bearbeitung_angebot_erhalten_ar.VisibleIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="colzeit_datum_ext_bearbeitung_angebot_erhalten_ar.Width" type="System.Int32, mscorlib">
+    <value>70</value>
+  </data>
+  <data name="colzeit_datum_kalk_erstellt_ar.Caption" xml:space="preserve">
+    <value>Datum Kalkulation erstellt</value>
+  </data>
+  <data name="colzeit_datum_kalk_erstellt_ar.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colzeit_datum_kalk_erstellt_ar.VisibleIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="colzeit_datum_kalk_erstellt_ar.Width" type="System.Int32, mscorlib">
+    <value>70</value>
+  </data>
+  <data name="colstatus_angebot_ar.Caption" xml:space="preserve">
+    <value>Status Angebot</value>
+  </data>
+  <data name="colstatus_angebot_ar.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colstatus_angebot_ar.VisibleIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="colstatus_angebot_ar.Width" type="System.Int32, mscorlib">
+    <value>80</value>
+  </data>
+  <data name="colmachbarkeit_ae.Caption" xml:space="preserve">
+    <value>HSB AE</value>
+  </data>
+  <data name="colmachbarkeit_ae.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colmachbarkeit_ae.VisibleIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="colmachbarkeit_ae.Width" type="System.Int32, mscorlib">
+    <value>50</value>
+  </data>
+  <data name="colmachbarkeit_prod.Caption" xml:space="preserve">
+    <value>HSB PROD</value>
+  </data>
+  <data name="colmachbarkeit_prod.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colmachbarkeit_prod.VisibleIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="colmachbarkeit_prod.Width" type="System.Int32, mscorlib">
+    <value>50</value>
+  </data>
+  <data name="colmachbarkeit_qm.Caption" xml:space="preserve">
+    <value>HSB QM</value>
+  </data>
+  <data name="colmachbarkeit_qm.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colmachbarkeit_qm.VisibleIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="colmachbarkeit_qm.Width" type="System.Int32, mscorlib">
+    <value>50</value>
+  </data>
+  <data name="colmachbarkeit_kalk.Caption" xml:space="preserve">
+    <value>HSB abschl.</value>
+  </data>
+  <data name="colmachbarkeit_kalk.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colmachbarkeit_kalk.VisibleIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="colmachbarkeit_kalk.Width" type="System.Int32, mscorlib">
+    <value>50</value>
+  </data>
+  <data name="col_bemerkungen.Caption" xml:space="preserve">
+    <value>Bemerkungen</value>
+  </data>
+  <data name="col_bemerkungen.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="col_bemerkungen.VisibleIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="col_bemerkungen.Width" type="System.Int32, mscorlib">
+    <value>80</value>
+  </data>
+  <data name="GridControl_AngebotReg.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1424, 340</value>
+  </data>
+  <data name="GridControl_AngebotReg.TabIndex" type="System.Int32, mscorlib">
+    <value>39</value>
+  </data>
+  <data name="&gt;&gt;GridControl_AngebotReg.Name" xml:space="preserve">
+    <value>GridControl_AngebotReg</value>
+  </data>
+  <data name="&gt;&gt;GridControl_AngebotReg.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.GridControl, DevExpress.XtraGrid.v24.1, Version=24.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;GridControl_AngebotReg.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;GridControl_AngebotReg.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="PanelControl_buttons.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="PanelControl_buttons.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left, Right</value>
+  </data>
+  <metadata name="btn_excel_export.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="btn_excel_export.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Right</value>
+  </data>
+  <data name="btn_excel_export.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btn_excel_export.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btn_excel_export.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1336, 7</value>
+  </data>
+  <data name="btn_excel_export.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 40</value>
+  </data>
+  <data name="btn_excel_export.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;btn_excel_export.Name" xml:space="preserve">
+    <value>btn_excel_export</value>
+  </data>
+  <data name="&gt;&gt;btn_excel_export.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btn_excel_export.Parent" xml:space="preserve">
+    <value>PanelControl_buttons</value>
+  </data>
+  <data name="&gt;&gt;btn_excel_export.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="btn_test.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="btn_test.Location" type="System.Drawing.Point, System.Drawing">
+    <value>658, 16</value>
+  </data>
+  <data name="btn_test.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 23</value>
+  </data>
+  <data name="btn_test.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="btn_test.Text" xml:space="preserve">
+    <value>Test</value>
+  </data>
+  <data name="btn_test.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;btn_test.Name" xml:space="preserve">
+    <value>btn_test</value>
+  </data>
+  <data name="&gt;&gt;btn_test.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btn_test.Parent" xml:space="preserve">
+    <value>PanelControl_buttons</value>
+  </data>
+  <data name="&gt;&gt;btn_test.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <metadata name="btn_schliessen.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="btn_schliessen.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Right</value>
+  </data>
+  <data name="btn_schliessen.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btn_schliessen.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1378, 7</value>
+  </data>
+  <data name="btn_schliessen.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 40</value>
+  </data>
+  <data name="btn_schliessen.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;btn_schliessen.Name" xml:space="preserve">
+    <value>btn_schliessen</value>
+  </data>
+  <data name="&gt;&gt;btn_schliessen.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btn_schliessen.Parent" xml:space="preserve">
+    <value>PanelControl_buttons</value>
+  </data>
+  <data name="&gt;&gt;btn_schliessen.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="PanelControl_buttons.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 694</value>
+  </data>
+  <data name="PanelControl_buttons.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1424, 54</value>
+  </data>
+  <data name="PanelControl_buttons.TabIndex" type="System.Int32, mscorlib">
+    <value>38</value>
+  </data>
+  <data name="&gt;&gt;PanelControl_buttons.Name" xml:space="preserve">
+    <value>PanelControl_buttons</value>
+  </data>
+  <data name="&gt;&gt;PanelControl_buttons.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.PanelControl, DevExpress.Utils.v24.1, Version=24.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;PanelControl_buttons.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;PanelControl_buttons.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAMDAAAAEAIACoJQAAFgAAACgAAAAwAAAAYAAAAAEAIAAAAAAAACQAABILAAASCwAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP/+
+        /QLw4dkm69bLNP36+AcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAD///4B1qyXa6xYLvCqVCr/qlUr/6pVKvrGjXGZ+/bzDAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAADHjnKYqVIn/548DP+ZMwD/mTMA/5w4B/+nTyP/s2dB0/36+AcAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAOXKvEOmSx7/mTMA/5kzAP+ZMwD/mTMA/5kzAP+ZMwD/o0YY/82a
+        gYUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMaMcJqbNwX/mTMA/5kzAP+ZMwD/mTMA/5kz
+        AP+ZMwD/mTMA/65dNdkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAALRnQcaZMwD/mzcF/6JE
+        Ff+kSRz/pEkc/6JFF/+dOgn/mTMA/505CP78+fcIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAD58/APy5d9hrlxTsWtWzLpunRRwc2bgoL79vMMAAAAAAAAAAAAAAAAAAAAALx5
+        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
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/v38A9+/rlTMmX+jypV6wMuWfK7as59q+vXyDfny
+        7hHr180y69bLNPfv6xQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AADly75BtmxHwKVKHf2oUCT/qFAl/6VJHf6zZkHH4sS1SgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAA///+AcmTeIekSRv/rlw0/6lSJ/+kSBv/pEgb/6hRJv+uXDT/pEkc/8OHaZb+/fwDAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAz5+HeKhQJf+mTCD/mjQC/5kzAP+ZMwD/mTMA/5kzAP+aNAH/pkwf/6pU
+        Kf/JkneIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        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
+        AAAAAAAA4sS1TZo0Af+ZMwD/mTMA/5kzAP/JkXaPAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAPjx7RLDhmeuvnxb/9Kljv/UqJL/1KiS/9Omj/+/fl7/wIFiuPXr
+        5hkAAAAAAAAAAAAAAAAAAAAA6tTJNqdPI/+zZkD/s2ZA/65cM//QoYl2AAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8ODYJ9Kji3bLlnyiypR5pdCg
+        h3vt29ItAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAANKkjafIkXb/y5Z8/8ePdNj69fINAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADx4too7tvSOf78
+        +wQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD///////8AAP///////wAA///+H///
+        AAD///gH//8AAP//+AP//wAA///wA///AAD///AD//8AAP//8AH//wAA/4DwA+B/AAD/AHADwD8AAP4A
+        MAPAHwAA/gA4B4AfAAD+ADwPgB8AAP4AP/+AHwAA/gA//8AfAAD+AD//wB8AAP4AP//gPwAA/wB///D/
+        AAD/gP////8AAPAf/////wAA4Af/////AADAB////8MAAIAD////AQAAgAP///8AAACAA////gAAAIAD
+        ///+AAAAgAP///8AAACAA////wAAAIAD////AQAAwAf////DAADgD/////8AAPAB/////wAA/4B/////
+        AAD+AB////8AAP4AH////wAA/AAP/+D/AAD8AA//4H8AAPwAD//APwAA/AAP/8A/AAD8AA//wD8AAPwA
+        D//AfwAA/AAOH+B/AAD8AAwP//8AAP4AHA///wAA/wA8D///AAD/wP4P//8AAP///x///wAA////////
+        AAA=
+</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Angebots-Tracking</value>
+  </data>
+  <data name="&gt;&gt;ToolTip_form1.Name" xml:space="preserve">
+    <value>ToolTip_form1</value>
+  </data>
+  <data name="&gt;&gt;ToolTip_form1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolTip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Timer_satzsperre.Name" xml:space="preserve">
+    <value>Timer_satzsperre</value>
+  </data>
+  <data name="&gt;&gt;Timer_satzsperre.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Timer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BandedGridView_tracking.Name" xml:space="preserve">
+    <value>BandedGridView_tracking</value>
+  </data>
+  <data name="&gt;&gt;BandedGridView_tracking.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Views.BandedGrid.BandedGridView, DevExpress.XtraGrid.v24.1, Version=24.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;GridBand_basics.Name" xml:space="preserve">
+    <value>GridBand_basics</value>
+  </data>
+  <data name="&gt;&gt;GridBand_basics.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Views.BandedGrid.GridBand, DevExpress.XtraGrid.v24.1, Version=24.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colid_tracking.Name" xml:space="preserve">
+    <value>colid_tracking</value>
+  </data>
+  <data name="&gt;&gt;colid_tracking.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn, DevExpress.XtraGrid.v24.1, Version=24.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colorg_company.Name" xml:space="preserve">
+    <value>colorg_company</value>
+  </data>
+  <data name="&gt;&gt;colorg_company.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn, DevExpress.XtraGrid.v24.1, Version=24.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colorg_division.Name" xml:space="preserve">
+    <value>colorg_division</value>
+  </data>
+  <data name="&gt;&gt;colorg_division.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn, DevExpress.XtraGrid.v24.1, Version=24.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colorg_plant.Name" xml:space="preserve">
+    <value>colorg_plant</value>
+  </data>
+  <data name="&gt;&gt;colorg_plant.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn, DevExpress.XtraGrid.v24.1, Version=24.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;coldatum_angelegt_am.Name" xml:space="preserve">
+    <value>coldatum_angelegt_am</value>
+  </data>
+  <data name="&gt;&gt;coldatum_angelegt_am.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn, DevExpress.XtraGrid.v24.1, Version=24.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colangebot_nr.Name" xml:space="preserve">
+    <value>colangebot_nr</value>
+  </data>
+  <data name="&gt;&gt;colangebot_nr.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn, DevExpress.XtraGrid.v24.1, Version=24.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colkunde.Name" xml:space="preserve">
+    <value>colkunde</value>
+  </data>
+  <data name="&gt;&gt;colkunde.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn, DevExpress.XtraGrid.v24.1, Version=24.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colpb.Name" xml:space="preserve">
+    <value>colpb</value>
+  </data>
+  <data name="&gt;&gt;colpb.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn, DevExpress.XtraGrid.v24.1, Version=24.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colanzahl_teile.Name" xml:space="preserve">
+    <value>colanzahl_teile</value>
+  </data>
+  <data name="&gt;&gt;colanzahl_teile.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn, DevExpress.XtraGrid.v24.1, Version=24.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colanzahl_jahresbedarfe.Name" xml:space="preserve">
+    <value>colanzahl_jahresbedarfe</value>
+  </data>
+  <data name="&gt;&gt;colanzahl_jahresbedarfe.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn, DevExpress.XtraGrid.v24.1, Version=24.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colbearbeitet_von.Name" xml:space="preserve">
+    <value>colbearbeitet_von</value>
+  </data>
+  <data name="&gt;&gt;colbearbeitet_von.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn, DevExpress.XtraGrid.v24.1, Version=24.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colname_kunden_manager.Name" xml:space="preserve">
+    <value>colname_kunden_manager</value>
+  </data>
+  <data name="&gt;&gt;colname_kunden_manager.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn, DevExpress.XtraGrid.v24.1, Version=24.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colzeit_datum_angefragt_am.Name" xml:space="preserve">
+    <value>colzeit_datum_angefragt_am</value>
+  </data>
+  <data name="&gt;&gt;colzeit_datum_angefragt_am.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn, DevExpress.XtraGrid.v24.1, Version=24.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colzeit_datum_angebot_bis.Name" xml:space="preserve">
+    <value>colzeit_datum_angebot_bis</value>
+  </data>
+  <data name="&gt;&gt;colzeit_datum_angebot_bis.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn, DevExpress.XtraGrid.v24.1, Version=24.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;coltracking_abgabe_termin.Name" xml:space="preserve">
+    <value>coltracking_abgabe_termin</value>
+  </data>
+  <data name="&gt;&gt;coltracking_abgabe_termin.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn, DevExpress.XtraGrid.v24.1, Version=24.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colprio.Name" xml:space="preserve">
+    <value>colprio</value>
+  </data>
+  <data name="&gt;&gt;colprio.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn, DevExpress.XtraGrid.v24.1, Version=24.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colprio_automatisch.Name" xml:space="preserve">
+    <value>colprio_automatisch</value>
+  </data>
+  <data name="&gt;&gt;colprio_automatisch.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn, DevExpress.XtraGrid.v24.1, Version=24.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;col_status_kalk.Name" xml:space="preserve">
+    <value>col_status_kalk</value>
+  </data>
+  <data name="&gt;&gt;col_status_kalk.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn, DevExpress.XtraGrid.v24.1, Version=24.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;col_satzsperre_ar.Name" xml:space="preserve">
+    <value>col_satzsperre_ar</value>
+  </data>
+  <data name="&gt;&gt;col_satzsperre_ar.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn, DevExpress.XtraGrid.v24.1, Version=24.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;gridBand_zkt_extb.Name" xml:space="preserve">
+    <value>gridBand_zkt_extb</value>
+  </data>
+  <data name="&gt;&gt;gridBand_zkt_extb.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Views.BandedGrid.GridBand, DevExpress.XtraGrid.v24.1, Version=24.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colflg.Name" xml:space="preserve">
+    <value>colflg</value>
+  </data>
+  <data name="&gt;&gt;colflg.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn, DevExpress.XtraGrid.v24.1, Version=24.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colzukaufteile_erforderlich.Name" xml:space="preserve">
+    <value>colzukaufteile_erforderlich</value>
+  </data>
+  <data name="&gt;&gt;colzukaufteile_erforderlich.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn, DevExpress.XtraGrid.v24.1, Version=24.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colext_bearbeitung_erforderlich.Name" xml:space="preserve">
+    <value>colext_bearbeitung_erforderlich</value>
+  </data>
+  <data name="&gt;&gt;colext_bearbeitung_erforderlich.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn, DevExpress.XtraGrid.v24.1, Version=24.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;gridBand_tracking.Name" xml:space="preserve">
+    <value>gridBand_tracking</value>
+  </data>
+  <data name="&gt;&gt;gridBand_tracking.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Views.BandedGrid.GridBand, DevExpress.XtraGrid.v24.1, Version=24.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colzeit_datum_hsb_freigegeben.Name" xml:space="preserve">
+    <value>colzeit_datum_hsb_freigegeben</value>
+  </data>
+  <data name="&gt;&gt;colzeit_datum_hsb_freigegeben.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn, DevExpress.XtraGrid.v24.1, Version=24.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colzeit_datum_berechnung_vorhanden.Name" xml:space="preserve">
+    <value>colzeit_datum_berechnung_vorhanden</value>
+  </data>
+  <data name="&gt;&gt;colzeit_datum_berechnung_vorhanden.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn, DevExpress.XtraGrid.v24.1, Version=24.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;col_status_berechnung.Name" xml:space="preserve">
+    <value>col_status_berechnung</value>
+  </data>
+  <data name="&gt;&gt;col_status_berechnung.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn, DevExpress.XtraGrid.v24.1, Version=24.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colzeit_datum_hsb_vorhanden_ae.Name" xml:space="preserve">
+    <value>colzeit_datum_hsb_vorhanden_ae</value>
+  </data>
+  <data name="&gt;&gt;colzeit_datum_hsb_vorhanden_ae.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn, DevExpress.XtraGrid.v24.1, Version=24.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;col_status_hsb_ae.Name" xml:space="preserve">
+    <value>col_status_hsb_ae</value>
+  </data>
+  <data name="&gt;&gt;col_status_hsb_ae.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn, DevExpress.XtraGrid.v24.1, Version=24.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colzeit_datum_hsb_vorhanden_prod.Name" xml:space="preserve">
+    <value>colzeit_datum_hsb_vorhanden_prod</value>
+  </data>
+  <data name="&gt;&gt;colzeit_datum_hsb_vorhanden_prod.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn, DevExpress.XtraGrid.v24.1, Version=24.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;col_status_hsb_prod.Name" xml:space="preserve">
+    <value>col_status_hsb_prod</value>
+  </data>
+  <data name="&gt;&gt;col_status_hsb_prod.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn, DevExpress.XtraGrid.v24.1, Version=24.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colzeit_datum_hsb_vorhanden_qs.Name" xml:space="preserve">
+    <value>colzeit_datum_hsb_vorhanden_qs</value>
+  </data>
+  <data name="&gt;&gt;colzeit_datum_hsb_vorhanden_qs.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn, DevExpress.XtraGrid.v24.1, Version=24.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;col_status_hsb_qm.Name" xml:space="preserve">
+    <value>col_status_hsb_qm</value>
+  </data>
+  <data name="&gt;&gt;col_status_hsb_qm.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn, DevExpress.XtraGrid.v24.1, Version=24.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colzeit_datum_zukaufteile_angefragt.Name" xml:space="preserve">
+    <value>colzeit_datum_zukaufteile_angefragt</value>
+  </data>
+  <data name="&gt;&gt;colzeit_datum_zukaufteile_angefragt.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn, DevExpress.XtraGrid.v24.1, Version=24.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colzeit_datum_ext_bearbeitung_angefragt.Name" xml:space="preserve">
+    <value>colzeit_datum_ext_bearbeitung_angefragt</value>
+  </data>
+  <data name="&gt;&gt;colzeit_datum_ext_bearbeitung_angefragt.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn, DevExpress.XtraGrid.v24.1, Version=24.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colzeit_datum_zukaufteile_angebot_vorhanden.Name" xml:space="preserve">
+    <value>colzeit_datum_zukaufteile_angebot_vorhanden</value>
+  </data>
+  <data name="&gt;&gt;colzeit_datum_zukaufteile_angebot_vorhanden.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn, DevExpress.XtraGrid.v24.1, Version=24.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colzeit_datum_ext_bearbeitung_angebot_vorhanden.Name" xml:space="preserve">
+    <value>colzeit_datum_ext_bearbeitung_angebot_vorhanden</value>
+  </data>
+  <data name="&gt;&gt;colzeit_datum_ext_bearbeitung_angebot_vorhanden.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn, DevExpress.XtraGrid.v24.1, Version=24.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colzeit_datum_kalk_erstellt.Name" xml:space="preserve">
+    <value>colzeit_datum_kalk_erstellt</value>
+  </data>
+  <data name="&gt;&gt;colzeit_datum_kalk_erstellt.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn, DevExpress.XtraGrid.v24.1, Version=24.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colzeit_datum_angebot_abgegeben.Name" xml:space="preserve">
+    <value>colzeit_datum_angebot_abgegeben</value>
+  </data>
+  <data name="&gt;&gt;colzeit_datum_angebot_abgegeben.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn, DevExpress.XtraGrid.v24.1, Version=24.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colstatus_bearbeitung.Name" xml:space="preserve">
+    <value>colstatus_bearbeitung</value>
+  </data>
+  <data name="&gt;&gt;colstatus_bearbeitung.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn, DevExpress.XtraGrid.v24.1, Version=24.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colfreigegeben_von.Name" xml:space="preserve">
+    <value>colfreigegeben_von</value>
+  </data>
+  <data name="&gt;&gt;colfreigegeben_von.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn, DevExpress.XtraGrid.v24.1, Version=24.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;gridBand_bemerkungen.Name" xml:space="preserve">
+    <value>gridBand_bemerkungen</value>
+  </data>
+  <data name="&gt;&gt;gridBand_bemerkungen.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Views.BandedGrid.GridBand, DevExpress.XtraGrid.v24.1, Version=24.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colbemerkungen.Name" xml:space="preserve">
+    <value>colbemerkungen</value>
+  </data>
+  <data name="&gt;&gt;colbemerkungen.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn, DevExpress.XtraGrid.v24.1, Version=24.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;RepositoryItemMemoExEdit1.Name" xml:space="preserve">
+    <value>RepositoryItemMemoExEdit1</value>
+  </data>
+  <data name="&gt;&gt;RepositoryItemMemoExEdit1.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.Repository.RepositoryItemMemoExEdit, DevExpress.XtraEditors.v24.1, Version=24.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;BarManager_form1.Name" xml:space="preserve">
+    <value>BarManager_form1</value>
+  </data>
+  <data name="&gt;&gt;BarManager_form1.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarManager, DevExpress.XtraBars.v24.1, Version=24.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;Bar2.Name" xml:space="preserve">
+    <value>Bar2</value>
+  </data>
+  <data name="&gt;&gt;Bar2.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Bar, DevExpress.XtraBars.v24.1, Version=24.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;BarSubItem_angebots_tracking.Name" xml:space="preserve">
+    <value>BarSubItem_angebots_tracking</value>
+  </data>
+  <data name="&gt;&gt;BarSubItem_angebots_tracking.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarSubItem, DevExpress.XtraBars.v24.1, Version=24.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;BarButtonItem_schliessen.Name" xml:space="preserve">
+    <value>BarButtonItem_schliessen</value>
+  </data>
+  <data name="&gt;&gt;BarButtonItem_schliessen.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v24.1, Version=24.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;BarSubItem_einstellungen.Name" xml:space="preserve">
+    <value>BarSubItem_einstellungen</value>
+  </data>
+  <data name="&gt;&gt;BarSubItem_einstellungen.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarSubItem, DevExpress.XtraBars.v24.1, Version=24.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;BarEditItem_sprache.Name" xml:space="preserve">
+    <value>BarEditItem_sprache</value>
+  </data>
+  <data name="&gt;&gt;BarEditItem_sprache.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarEditItem, DevExpress.XtraBars.v24.1, Version=24.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;RepositoryItemComboBox_sprache.Name" xml:space="preserve">
+    <value>RepositoryItemComboBox_sprache</value>
+  </data>
+  <data name="&gt;&gt;RepositoryItemComboBox_sprache.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.Repository.RepositoryItemComboBox, DevExpress.XtraEditors.v24.1, Version=24.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;BarSubItem_anzeigen.Name" xml:space="preserve">
+    <value>BarSubItem_anzeigen</value>
+  </data>
+  <data name="&gt;&gt;BarSubItem_anzeigen.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarSubItem, DevExpress.XtraBars.v24.1, Version=24.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;BarButtonItem_dokumentation.Name" xml:space="preserve">
+    <value>BarButtonItem_dokumentation</value>
+  </data>
+  <data name="&gt;&gt;BarButtonItem_dokumentation.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v24.1, Version=24.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;BarButtonItem_info.Name" xml:space="preserve">
+    <value>BarButtonItem_info</value>
+  </data>
+  <data name="&gt;&gt;BarButtonItem_info.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v24.1, Version=24.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;Bar3.Name" xml:space="preserve">
+    <value>Bar3</value>
+  </data>
+  <data name="&gt;&gt;Bar3.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Bar, DevExpress.XtraBars.v24.1, Version=24.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;BarStaticItem_connection.Name" xml:space="preserve">
+    <value>BarStaticItem_connection</value>
+  </data>
+  <data name="&gt;&gt;BarStaticItem_connection.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarStaticItem, DevExpress.XtraBars.v24.1, Version=24.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;BarStaticItem_berechtigung.Name" xml:space="preserve">
+    <value>BarStaticItem_berechtigung</value>
+  </data>
+  <data name="&gt;&gt;BarStaticItem_berechtigung.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarStaticItem, DevExpress.XtraBars.v24.1, Version=24.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;BarStaticItem_numlock.Name" xml:space="preserve">
+    <value>BarStaticItem_numlock</value>
+  </data>
+  <data name="&gt;&gt;BarStaticItem_numlock.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarStaticItem, DevExpress.XtraBars.v24.1, Version=24.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;BarStaticItem_capslock.Name" xml:space="preserve">
+    <value>BarStaticItem_capslock</value>
+  </data>
+  <data name="&gt;&gt;BarStaticItem_capslock.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarStaticItem, DevExpress.XtraBars.v24.1, Version=24.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;BarStaticItem_date.Name" xml:space="preserve">
+    <value>BarStaticItem_date</value>
+  </data>
+  <data name="&gt;&gt;BarStaticItem_date.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarStaticItem, DevExpress.XtraBars.v24.1, Version=24.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;BarStaticItem_anzahl_ds.Name" xml:space="preserve">
+    <value>BarStaticItem_anzahl_ds</value>
+  </data>
+  <data name="&gt;&gt;BarStaticItem_anzahl_ds.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarStaticItem, DevExpress.XtraBars.v24.1, Version=24.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;BarStaticItem_timer_user_action.Name" xml:space="preserve">
+    <value>BarStaticItem_timer_user_action</value>
+  </data>
+  <data name="&gt;&gt;BarStaticItem_timer_user_action.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarStaticItem, DevExpress.XtraBars.v24.1, Version=24.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;BarStaticItem_org.Name" xml:space="preserve">
+    <value>BarStaticItem_org</value>
+  </data>
+  <data name="&gt;&gt;BarStaticItem_org.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarStaticItem, DevExpress.XtraBars.v24.1, Version=24.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;BarStaticItem_div.Name" xml:space="preserve">
+    <value>BarStaticItem_div</value>
+  </data>
+  <data name="&gt;&gt;BarStaticItem_div.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarStaticItem, DevExpress.XtraBars.v24.1, Version=24.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;BarHeaderItem_anzahl_ds.Name" xml:space="preserve">
+    <value>BarHeaderItem_anzahl_ds</value>
+  </data>
+  <data name="&gt;&gt;BarHeaderItem_anzahl_ds.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarHeaderItem, DevExpress.XtraBars.v24.1, Version=24.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;BarStaticItem_plant.Name" xml:space="preserve">
+    <value>BarStaticItem_plant</value>
+  </data>
+  <data name="&gt;&gt;BarStaticItem_plant.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarStaticItem, DevExpress.XtraBars.v24.1, Version=24.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;BarButtonItem_daten_aktualisieren.Name" xml:space="preserve">
+    <value>BarButtonItem_daten_aktualisieren</value>
+  </data>
+  <data name="&gt;&gt;BarButtonItem_daten_aktualisieren.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v24.1, Version=24.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;BarStaticItem_info_satzsperre.Name" xml:space="preserve">
+    <value>BarStaticItem_info_satzsperre</value>
+  </data>
+  <data name="&gt;&gt;BarStaticItem_info_satzsperre.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarStaticItem, DevExpress.XtraBars.v24.1, Version=24.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;BarStaticItem1.Name" xml:space="preserve">
+    <value>BarStaticItem1</value>
+  </data>
+  <data name="&gt;&gt;BarStaticItem1.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarStaticItem, DevExpress.XtraBars.v24.1, Version=24.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;BarEditItem_znr_suchen.Name" xml:space="preserve">
+    <value>BarEditItem_znr_suchen</value>
+  </data>
+  <data name="&gt;&gt;BarEditItem_znr_suchen.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarEditItem, DevExpress.XtraBars.v24.1, Version=24.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;RepositoryItemSearchLookUpEdit_znr.Name" xml:space="preserve">
+    <value>RepositoryItemSearchLookUpEdit_znr</value>
+  </data>
+  <data name="&gt;&gt;RepositoryItemSearchLookUpEdit_znr.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.Repository.RepositoryItemSearchLookUpEdit, DevExpress.XtraGrid.v24.1, Version=24.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;RepositoryItemSearchLookUpEdit1View.Name" xml:space="preserve">
+    <value>RepositoryItemSearchLookUpEdit1View</value>
+  </data>
+  <data name="&gt;&gt;RepositoryItemSearchLookUpEdit1View.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Views.Grid.GridView, DevExpress.XtraGrid.v24.1, Version=24.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;RepositoryItemTextEdit1.Name" xml:space="preserve">
+    <value>RepositoryItemTextEdit1</value>
+  </data>
+  <data name="&gt;&gt;RepositoryItemTextEdit1.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.Repository.RepositoryItemTextEdit, DevExpress.XtraEditors.v24.1, Version=24.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;RepositoryItemComboBox_znr_suchen.Name" xml:space="preserve">
+    <value>RepositoryItemComboBox_znr_suchen</value>
+  </data>
+  <data name="&gt;&gt;RepositoryItemComboBox_znr_suchen.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.Repository.RepositoryItemComboBox, DevExpress.XtraEditors.v24.1, Version=24.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;RepositoryItemComboBox_vertriebsbereich.Name" xml:space="preserve">
+    <value>RepositoryItemComboBox_vertriebsbereich</value>
+  </data>
+  <data name="&gt;&gt;RepositoryItemComboBox_vertriebsbereich.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.Repository.RepositoryItemComboBox, DevExpress.XtraEditors.v24.1, Version=24.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;RepositoryItemPictureEdit1.Name" xml:space="preserve">
+    <value>RepositoryItemPictureEdit1</value>
+  </data>
+  <data name="&gt;&gt;RepositoryItemPictureEdit1.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.Repository.RepositoryItemPictureEdit, DevExpress.XtraEditors.v24.1, Version=24.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;RepositoryItemSearchLookUpEdit1.Name" xml:space="preserve">
+    <value>RepositoryItemSearchLookUpEdit1</value>
+  </data>
+  <data name="&gt;&gt;RepositoryItemSearchLookUpEdit1.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.Repository.RepositoryItemSearchLookUpEdit, DevExpress.XtraGrid.v24.1, Version=24.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;GridView1.Name" xml:space="preserve">
+    <value>GridView1</value>
+  </data>
+  <data name="&gt;&gt;GridView1.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Views.Grid.GridView, DevExpress.XtraGrid.v24.1, Version=24.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;RepositoryItemCheckEdit2.Name" xml:space="preserve">
+    <value>RepositoryItemCheckEdit2</value>
+  </data>
+  <data name="&gt;&gt;RepositoryItemCheckEdit2.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.Repository.RepositoryItemCheckEdit, DevExpress.XtraEditors.v24.1, Version=24.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;RepositoryItemMemoEdit1.Name" xml:space="preserve">
+    <value>RepositoryItemMemoEdit1</value>
+  </data>
+  <data name="&gt;&gt;RepositoryItemMemoEdit1.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.Repository.RepositoryItemMemoEdit, DevExpress.XtraEditors.v24.1, Version=24.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;RepositoryItemCheckedComboBoxEdit1.Name" xml:space="preserve">
+    <value>RepositoryItemCheckedComboBoxEdit1</value>
+  </data>
+  <data name="&gt;&gt;RepositoryItemCheckedComboBoxEdit1.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.Repository.RepositoryItemCheckedComboBoxEdit, DevExpress.XtraEditors.v24.1, Version=24.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;RepositoryItemLookUpEdit1.Name" xml:space="preserve">
+    <value>RepositoryItemLookUpEdit1</value>
+  </data>
+  <data name="&gt;&gt;RepositoryItemLookUpEdit1.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.Repository.RepositoryItemLookUpEdit, DevExpress.XtraEditors.v24.1, Version=24.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;DataTabletrackingBindingSource.Name" xml:space="preserve">
+    <value>DataTabletrackingBindingSource</value>
+  </data>
+  <data name="&gt;&gt;DataTabletrackingBindingSource.Type" xml:space="preserve">
+    <value>System.Windows.Forms.BindingSource, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DataSet_tracking.Name" xml:space="preserve">
+    <value>DataSet_tracking</value>
+  </data>
+  <data name="&gt;&gt;DataSet_tracking.Type" xml:space="preserve">
+    <value>AngebotTrack.DataSet_tracking, DataSet_tracking.Designer.vb.dll, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;DataTableAngebotRegBindingSource.Name" xml:space="preserve">
+    <value>DataTableAngebotRegBindingSource</value>
+  </data>
+  <data name="&gt;&gt;DataTableAngebotRegBindingSource.Type" xml:space="preserve">
+    <value>System.Windows.Forms.BindingSource, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GridView_AngebotReg.Name" xml:space="preserve">
+    <value>GridView_AngebotReg</value>
+  </data>
+  <data name="&gt;&gt;GridView_AngebotReg.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Views.Grid.GridView, DevExpress.XtraGrid.v24.1, Version=24.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colid_ar.Name" xml:space="preserve">
+    <value>colid_ar</value>
+  </data>
+  <data name="&gt;&gt;colid_ar.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v24.1, Version=24.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colid_tracking_ar.Name" xml:space="preserve">
+    <value>colid_tracking_ar</value>
+  </data>
+  <data name="&gt;&gt;colid_tracking_ar.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v24.1, Version=24.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;col_datum_angebot_bis.Name" xml:space="preserve">
+    <value>col_datum_angebot_bis</value>
+  </data>
+  <data name="&gt;&gt;col_datum_angebot_bis.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v24.1, Version=24.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colznr_ar.Name" xml:space="preserve">
+    <value>colznr_ar</value>
+  </data>
+  <data name="&gt;&gt;colznr_ar.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v24.1, Version=24.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colind_ar.Name" xml:space="preserve">
+    <value>colind_ar</value>
+  </data>
+  <data name="&gt;&gt;colind_ar.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v24.1, Version=24.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;coljahresbedarf_ar.Name" xml:space="preserve">
+    <value>coljahresbedarf_ar</value>
+  </data>
+  <data name="&gt;&gt;coljahresbedarf_ar.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v24.1, Version=24.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;collosgroesse_ar.Name" xml:space="preserve">
+    <value>collosgroesse_ar</value>
+  </data>
+  <data name="&gt;&gt;collosgroesse_ar.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v24.1, Version=24.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colpb_ar.Name" xml:space="preserve">
+    <value>colpb_ar</value>
+  </data>
+  <data name="&gt;&gt;colpb_ar.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v24.1, Version=24.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colmit_zukaufteilen_ar.Name" xml:space="preserve">
+    <value>colmit_zukaufteilen_ar</value>
+  </data>
+  <data name="&gt;&gt;colmit_zukaufteilen_ar.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v24.1, Version=24.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;RepositoryItemCheckEdit1.Name" xml:space="preserve">
+    <value>RepositoryItemCheckEdit1</value>
+  </data>
+  <data name="&gt;&gt;RepositoryItemCheckEdit1.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.Repository.RepositoryItemCheckEdit, DevExpress.XtraEditors.v24.1, Version=24.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colmit_ext_ag_ar.Name" xml:space="preserve">
+    <value>colmit_ext_ag_ar</value>
+  </data>
+  <data name="&gt;&gt;colmit_ext_ag_ar.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v24.1, Version=24.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colzeit_datum_berechnung_erstellt_ar.Name" xml:space="preserve">
+    <value>colzeit_datum_berechnung_erstellt_ar</value>
+  </data>
+  <data name="&gt;&gt;colzeit_datum_berechnung_erstellt_ar.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v24.1, Version=24.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;RepositoryItemDateEdit1.Name" xml:space="preserve">
+    <value>RepositoryItemDateEdit1</value>
+  </data>
+  <data name="&gt;&gt;RepositoryItemDateEdit1.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.Repository.RepositoryItemDateEdit, DevExpress.XtraEditors.v24.1, Version=24.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colzeit_datum_hsb_erstellt_ae_ar.Name" xml:space="preserve">
+    <value>colzeit_datum_hsb_erstellt_ae_ar</value>
+  </data>
+  <data name="&gt;&gt;colzeit_datum_hsb_erstellt_ae_ar.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v24.1, Version=24.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colzeit_datum_hsb_erstellt_prod_ar.Name" xml:space="preserve">
+    <value>colzeit_datum_hsb_erstellt_prod_ar</value>
+  </data>
+  <data name="&gt;&gt;colzeit_datum_hsb_erstellt_prod_ar.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v24.1, Version=24.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colzeit_datum_hsb_erstellt_qm_ar.Name" xml:space="preserve">
+    <value>colzeit_datum_hsb_erstellt_qm_ar</value>
+  </data>
+  <data name="&gt;&gt;colzeit_datum_hsb_erstellt_qm_ar.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v24.1, Version=24.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colzeit_datum_hsb_freigegeben_ar.Name" xml:space="preserve">
+    <value>colzeit_datum_hsb_freigegeben_ar</value>
+  </data>
+  <data name="&gt;&gt;colzeit_datum_hsb_freigegeben_ar.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v24.1, Version=24.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colzeit_datum_zukaufteile_angefragt_ar.Name" xml:space="preserve">
+    <value>colzeit_datum_zukaufteile_angefragt_ar</value>
+  </data>
+  <data name="&gt;&gt;colzeit_datum_zukaufteile_angefragt_ar.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v24.1, Version=24.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colzeit_datum_ext_bearbeitung_angefragt_ar.Name" xml:space="preserve">
+    <value>colzeit_datum_ext_bearbeitung_angefragt_ar</value>
+  </data>
+  <data name="&gt;&gt;colzeit_datum_ext_bearbeitung_angefragt_ar.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v24.1, Version=24.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colzeit_datum_zukaufteile_angebot_erhalten_ar.Name" xml:space="preserve">
+    <value>colzeit_datum_zukaufteile_angebot_erhalten_ar</value>
+  </data>
+  <data name="&gt;&gt;colzeit_datum_zukaufteile_angebot_erhalten_ar.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v24.1, Version=24.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colzeit_datum_ext_bearbeitung_angebot_erhalten_ar.Name" xml:space="preserve">
+    <value>colzeit_datum_ext_bearbeitung_angebot_erhalten_ar</value>
+  </data>
+  <data name="&gt;&gt;colzeit_datum_ext_bearbeitung_angebot_erhalten_ar.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v24.1, Version=24.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colzeit_datum_kalk_erstellt_ar.Name" xml:space="preserve">
+    <value>colzeit_datum_kalk_erstellt_ar</value>
+  </data>
+  <data name="&gt;&gt;colzeit_datum_kalk_erstellt_ar.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v24.1, Version=24.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colstatus_angebot_ar.Name" xml:space="preserve">
+    <value>colstatus_angebot_ar</value>
+  </data>
+  <data name="&gt;&gt;colstatus_angebot_ar.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v24.1, Version=24.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colmachbarkeit_ae.Name" xml:space="preserve">
+    <value>colmachbarkeit_ae</value>
+  </data>
+  <data name="&gt;&gt;colmachbarkeit_ae.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v24.1, Version=24.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colmachbarkeit_prod.Name" xml:space="preserve">
+    <value>colmachbarkeit_prod</value>
+  </data>
+  <data name="&gt;&gt;colmachbarkeit_prod.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v24.1, Version=24.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colmachbarkeit_qm.Name" xml:space="preserve">
+    <value>colmachbarkeit_qm</value>
+  </data>
+  <data name="&gt;&gt;colmachbarkeit_qm.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v24.1, Version=24.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colmachbarkeit_kalk.Name" xml:space="preserve">
+    <value>colmachbarkeit_kalk</value>
+  </data>
+  <data name="&gt;&gt;colmachbarkeit_kalk.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v24.1, Version=24.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;col_bemerkungen.Name" xml:space="preserve">
+    <value>col_bemerkungen</value>
+  </data>
+  <data name="&gt;&gt;col_bemerkungen.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v24.1, Version=24.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;BackgroundWorker_speichern.Name" xml:space="preserve">
+    <value>BackgroundWorker_speichern</value>
+  </data>
+  <data name="&gt;&gt;BackgroundWorker_speichern.Type" xml:space="preserve">
+    <value>System.ComponentModel.BackgroundWorker, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Timer_user_action.Name" xml:space="preserve">
+    <value>Timer_user_action</value>
+  </data>
+  <data name="&gt;&gt;Timer_user_action.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Timer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;PopupMenu_tracking.Name" xml:space="preserve">
+    <value>PopupMenu_tracking</value>
+  </data>
+  <data name="&gt;&gt;PopupMenu_tracking.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.PopupMenu, DevExpress.XtraBars.v24.1, Version=24.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;BackgroundWorker_excel_export.Name" xml:space="preserve">
+    <value>BackgroundWorker_excel_export</value>
+  </data>
+  <data name="&gt;&gt;BackgroundWorker_excel_export.Type" xml:space="preserve">
+    <value>System.ComponentModel.BackgroundWorker, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>Form1</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="BarStaticItem_org.Caption" xml:space="preserve">
+    <value>Firma</value>
+  </data>
+  <data name="BarStaticItem_div.Caption" xml:space="preserve">
+    <value>Sparte</value>
+  </data>
+  <data name="BarHeaderItem_anzahl_ds.Caption" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="BarStaticItem_plant.Caption" xml:space="preserve">
+    <value>Werk</value>
+  </data>
+  <data name="BarButtonItem_daten_aktualisieren.Caption" xml:space="preserve">
+    <value>Daten aktualisieren</value>
+  </data>
+  <data name="BarStaticItem1.Caption" xml:space="preserve">
+    <value>T E S T V E R S I O N</value>
+  </data>
+  <data name="BarEditItem_znr_suchen.Caption" xml:space="preserve">
+    <value>Zeichnung-Nr. suchen</value>
+  </data>
+  <data name="RepositoryItemSearchLookUpEdit_znr.AutoHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="RepositoryItemSearchLookUpEdit_znr.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v24.1">
+    <value>Combo</value>
+  </data>
+  <data name="RepositoryItemTextEdit1.AutoHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="RepositoryItemComboBox_znr_suchen.AutoHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="RepositoryItemComboBox_znr_suchen.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v24.1">
+    <value>Combo</value>
+  </data>
+  <data name="RepositoryItemComboBox_vertriebsbereich.AutoHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="RepositoryItemComboBox_vertriebsbereich.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v24.1">
+    <value>Combo</value>
+  </data>
+  <data name="RepositoryItemSearchLookUpEdit1.AutoHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="RepositoryItemSearchLookUpEdit1.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v24.1">
+    <value>Combo</value>
+  </data>
+  <data name="RepositoryItemCheckEdit2.AutoHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="RepositoryItemCheckedComboBoxEdit1.AutoHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="RepositoryItemCheckedComboBoxEdit1.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v24.1">
+    <value>Combo</value>
+  </data>
+  <data name="RepositoryItemLookUpEdit1.AutoHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="RepositoryItemLookUpEdit1.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v24.1">
+    <value>Combo</value>
+  </data>
+  <data name="GridControl_tracking.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1424, 300</value>
+  </data>
+  <data name="GridControl_tracking.TabIndex" type="System.Int32, mscorlib">
+    <value>37</value>
+  </data>
+  <data name="&gt;&gt;GridControl_tracking.Name" xml:space="preserve">
+    <value>GridControl_tracking</value>
+  </data>
+  <data name="&gt;&gt;GridControl_tracking.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.GridControl, DevExpress.XtraGrid.v24.1, Version=24.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;GridControl_tracking.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;GridControl_tracking.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <metadata name="DataTabletrackingBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>874, 18</value>
+  </metadata>
+  <metadata name="BackgroundWorker_speichern.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>1321, 18</value>
+  </metadata>
+  <metadata name="Timer_user_action.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 55</value>
+  </metadata>
+  <metadata name="PopupMenu_tracking.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>299, 56</value>
+  </metadata>
+  <metadata name="BackgroundWorker_excel_export.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>467, 56</value>
+  </metadata>
+</root>

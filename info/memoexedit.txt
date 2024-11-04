@@ -1,0 +1,10 @@
+Private Sub gridView1_MouseDown(ByVal sender As Object, ByVal e As MouseEventArgs)
+    Dim view As GridView = TryCast(sender, GridView)
+    If view IsNot Nothing Then
+        Dim hi As GridHitInfo = view.CalcHitInfo(e.Location)
+        If hi.InRow Then
+            view.FocusedRowHandle = hi.RowHandle
+                        'put all needed actions here
+        End If
+    End If
+End Sub
